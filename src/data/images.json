@@ -1,0 +1,591 @@
+﻿{
+    "place-garden-lounge":  {
+                                "w":  2048,
+                                "h":  1158,
+                                "widths":  [
+                                               480,
+                                               960,
+                                               1600,
+                                               2048
+                                           ],
+                                "categories":  "place",
+                                "alt":  "Garden lounge with a white umbrella, rattan seating and thatched eaves"
+                            },
+    "stay-pool-moonlight":  {
+                                "w":  1284,
+                                "h":  1752,
+                                "widths":  [
+                                               480,
+                                               960,
+                                               1284
+                                           ],
+                                "categories":  "stay",
+                                "alt":  "Rattan poolside chair beneath a full moon, the pool lit blue at night"
+                            },
+    "celebration-banquet-aisle":  {
+                                      "w":  1536,
+                                      "h":  2048,
+                                      "widths":  [
+                                                     480,
+                                                     960,
+                                                     1536
+                                                 ],
+                                      "categories":  "celebrations",
+                                      "alt":  "A long banquet aisle with red chair sashes and white linens under an open sky"
+                                  },
+    "stay-bedroom":  {
+                         "w":  1284,
+                         "h":  2046,
+                         "widths":  [
+                                        480,
+                                        960,
+                                        1284
+                                    ],
+                         "categories":  "stay",
+                         "alt":  "Bedroom with a woven rattan pendant light and woven wall decor"
+                     },
+    "stay-pool-sky":  {
+                          "w":  1278,
+                          "h":  2048,
+                          "widths":  [
+                                         480,
+                                         960,
+                                         1278
+                                     ],
+                          "categories":  "stay",
+                          "alt":  "Two-level pool beneath a bright, cloud-streaked sky"
+                      },
+    "celebration-wedding-arch":  {
+                                     "w":  1267,
+                                     "h":  2048,
+                                     "widths":  [
+                                                    480,
+                                                    960,
+                                                    1267
+                                                ],
+                                     "categories":  "celebrations",
+                                     "alt":  "Floral wedding welcome arch with a mirrored sign"
+                                 },
+    "catering-buffet":  {
+                            "w":  1211,
+                            "h":  2048,
+                            "widths":  [
+                                           480,
+                                           960,
+                                           1211
+                                       ],
+                            "categories":  "catering|celebrations",
+                            "alt":  "Buffet line of chafing dishes decorated with white roses"
+                        },
+    "place-fountain-terrace":  {
+                                   "w":  2048,
+                                   "h":  1154,
+                                   "widths":  [
+                                                  480,
+                                                  960,
+                                                  1600,
+                                                  2048
+                                              ],
+                                   "categories":  "place",
+                                   "alt":  "Stone fountain, tiled steps and rattan lounge seating on the terrace"
+                               },
+    "stay-lounge-sofa":  {
+                             "w":  1284,
+                             "h":  2040,
+                             "widths":  [
+                                            480,
+                                            960,
+                                            1284
+                                        ],
+                             "categories":  "stay",
+                             "alt":  "Sectional sofa beside a woven pendant lamp"
+                         },
+    "celebration-draped-ceiling":  {
+                                       "w":  2048,
+                                       "h":  1156,
+                                       "widths":  [
+                                                      480,
+                                                      960,
+                                                      1600,
+                                                      2048
+                                                  ],
+                                       "categories":  "celebrations",
+                                       "alt":  "White fabric ceiling drapes hung with crystal chandeliers"
+                                   },
+    "place-thatch-sunset":  {
+                                "w":  1152,
+                                "h":  2048,
+                                "widths":  [
+                                               480,
+                                               960,
+                                               1152
+                                           ],
+                                "categories":  "place",
+                                "alt":  "Thatched roof edge against a pink sunset sky"
+                            },
+    "stay-floating-breakfast":  {
+                                    "w":  1284,
+                                    "h":  2022,
+                                    "widths":  [
+                                                   480,
+                                                   960,
+                                                   1284
+                                               ],
+                                    "categories":  "stay",
+                                    "alt":  "Floating breakfast tray with coffee, juice and pastries in the pool"
+                                },
+    "celebration-white-tablescape":  {
+                                         "w":  1284,
+                                         "h":  1950,
+                                         "widths":  [
+                                                        480,
+                                                        960,
+                                                        1284
+                                                    ],
+                                         "categories":  "celebrations|catering",
+                                         "alt":  "Long table dressed in white with dark runners and gold chairs"
+                                     },
+    "place-garden-courtyard":  {
+                                   "w":  1152,
+                                   "h":  2048,
+                                   "widths":  [
+                                                  480,
+                                                  960,
+                                                  1152
+                                              ],
+                                   "categories":  "place",
+                                   "alt":  "Garden courtyard with grass-lined pavers and thatched umbrellas"
+                               },
+    "stay-living-room":  {
+                             "w":  1152,
+                             "h":  2048,
+                             "widths":  [
+                                            480,
+                                            960,
+                                            1152
+                                        ],
+                             "categories":  "stay",
+                             "alt":  "Living area with cream sofas and a round marble table"
+                         },
+    "celebration-balloon-arch":  {
+                                     "w":  1152,
+                                     "h":  2048,
+                                     "widths":  [
+                                                    480,
+                                                    960,
+                                                    1152
+                                                ],
+                                     "categories":  "celebrations",
+                                     "alt":  "White and silver balloon arch at an event entrance"
+                                 },
+    "stay-poolside-chairs":  {
+                                 "w":  1785,
+                                 "h":  1080,
+                                 "widths":  [
+                                                480,
+                                                960,
+                                                1600,
+                                                1785
+                                            ],
+                                 "categories":  "stay",
+                                 "alt":  "Two rattan chairs with cushions beside the pool in afternoon shade"
+                             },
+    "place-bar-lounge":  {
+                             "w":  1152,
+                             "h":  2048,
+                             "widths":  [
+                                            480,
+                                            960,
+                                            1152
+                                        ],
+                             "categories":  "place",
+                             "alt":  "Bar counter with arched shelving and rattan stools"
+                         },
+    "celebration-birthday-hall":  {
+                                      "w":  1152,
+                                      "h":  2048,
+                                      "widths":  [
+                                                     480,
+                                                     960,
+                                                     1152
+                                                 ],
+                                      "categories":  "celebrations",
+                                      "alt":  "Birthday celebration hall with draped ceiling and rose centrepieces"
+                                  },
+    "stay-dining-room":  {
+                             "w":  1318,
+                             "h":  2048,
+                             "widths":  [
+                                            480,
+                                            960,
+                                            1318
+                                        ],
+                             "categories":  "stay",
+                             "alt":  "Dining room with a long table, bench seating and woven placemats"
+                         },
+    "place-lawn-umbrella":  {
+                                "w":  1536,
+                                "h":  2048,
+                                "widths":  [
+                                               480,
+                                               960,
+                                               1536
+                                           ],
+                                "categories":  "place",
+                                "alt":  "Thatched umbrella on the lawn with the poolside buildings behind"
+                            },
+    "stay-pool-night-garden":  {
+                                   "w":  1284,
+                                   "h":  1800,
+                                   "widths":  [
+                                                  480,
+                                                  960,
+                                                  1284
+                                              ],
+                                   "categories":  "stay",
+                                   "alt":  "Pool at night with lit tropical plants along the garden wall"
+                               },
+    "celebration-rose-tables":  {
+                                    "w":  1152,
+                                    "h":  2048,
+                                    "widths":  [
+                                                   480,
+                                                   960,
+                                                   1152
+                                               ],
+                                    "categories":  "celebrations|catering",
+                                    "alt":  "Banquet tables with red roses, gold chargers and black linens"
+                                },
+    "place-thatched-window":  {
+                                  "w":  1284,
+                                  "h":  2028,
+                                  "widths":  [
+                                                 480,
+                                                 960,
+                                                 1284
+                                             ],
+                                  "categories":  "place",
+                                  "alt":  "Rattan lounge seating beneath a thatched window awning"
+                              },
+    "stay-sitting-room":  {
+                              "w":  1252,
+                              "h":  2048,
+                              "widths":  [
+                                             480,
+                                             960,
+                                             1252
+                                         ],
+                              "categories":  "stay",
+                              "alt":  "Sitting room with cream armchairs and wooden floors"
+                          },
+    "stay-pool-cascade-detail":  {
+                                     "w":  540,
+                                     "h":  960,
+                                     "widths":  [
+                                                    480,
+                                                    540
+                                                ],
+                                     "categories":  "stay",
+                                     "alt":  "Close view of water spilling over a tiled pool edge"
+                                 },
+    "celebration-garden-reception":  {
+                                         "w":  1152,
+                                         "h":  2048,
+                                         "widths":  [
+                                                        480,
+                                                        960,
+                                                        1152
+                                                    ],
+                                         "categories":  "celebrations",
+                                         "alt":  "Reception tables in black and white linens across the courtyard"
+                                     },
+    "place-sunset-courtyard":  {
+                                   "w":  720,
+                                   "h":  960,
+                                   "widths":  [
+                                                  480,
+                                                  720
+                                              ],
+                                   "categories":  "place",
+                                   "alt":  "Courtyard and thatched roofline beneath an orange sunset"
+                               },
+    "stay-bunk-room":  {
+                           "w":  1224,
+                           "h":  2048,
+                           "widths":  [
+                                          480,
+                                          960,
+                                          1224
+                                      ],
+                           "categories":  "stay",
+                           "alt":  "Room with bunk beds, a woven rug and soft lighting"
+                       },
+    "place-fountain-courtyard":  {
+                                     "w":  1152,
+                                     "h":  2048,
+                                     "widths":  [
+                                                    480,
+                                                    960,
+                                                    1152
+                                                ],
+                                     "categories":  "place",
+                                     "alt":  "Tiered fountain framed by palms and a white arch"
+                                 },
+    "place-night-lounge":  {
+                               "w":  1284,
+                               "h":  1884,
+                               "widths":  [
+                                              480,
+                                              960,
+                                              1284
+                                          ],
+                               "categories":  "place",
+                               "alt":  "Rattan lounge chairs on the lawn at night with the lit pool beyond"
+                           },
+    "stay-living-dining":  {
+                               "w":  1207,
+                               "h":  2048,
+                               "widths":  [
+                                              480,
+                                              960,
+                                              1207
+                                          ],
+                               "categories":  "stay",
+                               "alt":  "Lounge and dining space with woven placemats and fresh flowers"
+                           },
+    "place-rattan-lounge":  {
+                                "w":  2048,
+                                "h":  1150,
+                                "widths":  [
+                                               480,
+                                               960,
+                                               1600,
+                                               2048
+                                           ],
+                                "categories":  "place",
+                                "alt":  "Rattan sofa and armchairs beneath a garden umbrella"
+                            },
+    "stay-pool-lawn":  {
+                           "w":  1152,
+                           "h":  2048,
+                           "widths":  [
+                                          480,
+                                          960,
+                                          1152
+                                      ],
+                           "categories":  "stay",
+                           "alt":  "View from beneath the thatch toward the pool and lawn"
+                       },
+    "place-umbrella-patio":  {
+                                 "w":  1152,
+                                 "h":  2048,
+                                 "widths":  [
+                                                480,
+                                                960,
+                                                1152
+                                            ],
+                                 "categories":  "place",
+                                 "alt":  "Thatched umbrella over a patio table with woven poufs"
+                             },
+    "stay-pool-cascade":  {
+                              "w":  540,
+                              "h":  960,
+                              "widths":  [
+                                             480,
+                                             540
+                                         ],
+                              "categories":  "stay",
+                              "alt":  "Water cascading between pool levels"
+                          },
+    "place-terrace-night":  {
+                                "w":  1284,
+                                "h":  1878,
+                                "widths":  [
+                                               480,
+                                               960,
+                                               1284
+                                           ],
+                                "categories":  "place",
+                                "alt":  "Paved terrace and lawn lit at night"
+                            },
+    "stay-interior-pendants":  {
+                                   "w":  1152,
+                                   "h":  2048,
+                                   "widths":  [
+                                                  480,
+                                                  960,
+                                                  1152
+                                              ],
+                                   "categories":  "stay",
+                                   "alt":  "Interior with pendant lights, sheer curtains and a lounge corner"
+                               },
+    "place-bar-shelves":  {
+                              "w":  1152,
+                              "h":  2048,
+                              "widths":  [
+                                             480,
+                                             960,
+                                             1152
+                                         ],
+                              "categories":  "place",
+                              "alt":  "Arched bar shelving with a woven pendant lamp"
+                          },
+    "stay-pool-night-lounge":  {
+                                   "w":  1284,
+                                   "h":  1896,
+                                   "widths":  [
+                                                  480,
+                                                  960,
+                                                  1284
+                                              ],
+                                   "categories":  "stay",
+                                   "alt":  "Lit pool at night with rattan chairs and a thatched umbrella"
+                               },
+    "place-thatched-patio":  {
+                                 "w":  2048,
+                                 "h":  1156,
+                                 "widths":  [
+                                                480,
+                                                960,
+                                                1600,
+                                                2048
+                                            ],
+                                 "categories":  "place",
+                                 "alt":  "A guest walking past a thatched patio with white garden furniture"
+                             },
+    "stay-floating-breakfast-wide":  {
+                                         "w":  1152,
+                                         "h":  2048,
+                                         "widths":  [
+                                                        480,
+                                                        960,
+                                                        1152
+                                                    ],
+                                         "categories":  "stay",
+                                         "alt":  "Floating breakfast tray in the pool"
+                                     },
+    "place-bar-thatch":  {
+                             "w":  540,
+                             "h":  960,
+                             "widths":  [
+                                            480,
+                                            540
+                                        ],
+                             "categories":  "place",
+                             "alt":  "Dining tables beneath a thatched roof beside the pool bar"
+                         },
+    "stay-bunk-detail":  {
+                             "w":  1245,
+                             "h":  2048,
+                             "widths":  [
+                                            480,
+                                            960,
+                                            1245
+                                        ],
+                             "categories":  "stay",
+                             "alt":  "Bunk bed and bedside table with a dried-flower vase"
+                         },
+    "place-garden-entrance":  {
+                                  "w":  1152,
+                                  "h":  2048,
+                                  "widths":  [
+                                                 480,
+                                                 960,
+                                                 1152
+                                             ],
+                                  "categories":  "place",
+                                  "alt":  "Garden path with potted monstera leading to the main building"
+                              },
+    "stay-pool-night":  {
+                            "w":  1159,
+                            "h":  2048,
+                            "widths":  [
+                                           480,
+                                           960,
+                                           1159
+                                       ],
+                            "categories":  "stay",
+                            "alt":  "The pool lit blue at night"
+                        },
+    "place-lawn-pool-view":  {
+                                 "w":  1152,
+                                 "h":  2048,
+                                 "widths":  [
+                                                480,
+                                                960,
+                                                1152
+                                            ],
+                                 "categories":  "place",
+                                 "alt":  "Rattan armchair on the lawn overlooking the pool"
+                             },
+    "place-arch-mirror":  {
+                              "w":  540,
+                              "h":  960,
+                              "widths":  [
+                                             480,
+                                             540
+                                         ],
+                              "categories":  "place",
+                              "alt":  "An arched mirror on the lawn beneath a thatched roof"
+                          },
+    "place-bar-pool":  {
+                           "w":  540,
+                           "h":  960,
+                           "widths":  [
+                                          480,
+                                          540
+                                      ],
+                           "categories":  "place",
+                           "alt":  "Poolside bar with arched shelving and rattan dining chairs"
+                       },
+    "stay-pool-palms":  {
+                            "w":  540,
+                            "h":  960,
+                            "widths":  [
+                                           480,
+                                           540
+                                       ],
+                            "categories":  "stay",
+                            "alt":  "Pool water under palms and a clear blue sky"
+                        },
+    "place-rattan-detail":  {
+                                "w":  540,
+                                "h":  960,
+                                "widths":  [
+                                               480,
+                                               540
+                                           ],
+                                "categories":  "place",
+                                "alt":  "Rattan furniture among tropical plants"
+                            },
+    "place-lawn-lounge":  {
+                              "w":  540,
+                              "h":  960,
+                              "widths":  [
+                                             480,
+                                             540
+                                         ],
+                              "categories":  "place",
+                              "alt":  "Lawn lounge beneath thatched umbrellas beside the pool"
+                          },
+    "place-bar-thatch-pool":  {
+                                  "w":  540,
+                                  "h":  960,
+                                  "widths":  [
+                                                 480,
+                                                 540
+                                             ],
+                                  "categories":  "place",
+                                  "alt":  "Pool bar beneath the thatch with arched shelving"
+                              },
+    "stay-pool-garden":  {
+                             "w":  540,
+                             "h":  960,
+                             "widths":  [
+                                            480,
+                                            540
+                                        ],
+                             "categories":  "stay",
+                             "alt":  "Pool edge lined with palms along a white garden wall"
+                         }
+}

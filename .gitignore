@@ -1,0 +1,12 @@
+# Internal project documents — keep out of the public repository
+*.pdf
+
+# Original source assets (optimised copies live in src/assets/img).
+# Keep them locally to re-run tools/optimize-images.ps1.
+Initial Images/
+La Casa Bella Elegant Logo.png
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/

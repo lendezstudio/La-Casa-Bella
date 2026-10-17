@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+{{basetag}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+{{robots}}{{canonical}}<meta name="theme-color" content="#28372F">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="La Casa Bella Resort &amp; Events Place">
+<meta property="og:title" content="{{ogtitle}}">
+<meta property="og:description" content="{{ogdescription}}">
+<meta property="og:image" content="{{ogimage}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Garden lounge at La Casa Bella with rattan seating beneath thatched eaves">
+<meta property="og:locale" content="en_PH">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ogtitle}}">
+<meta name="twitter:description" content="{{ogdescription}}">
+<meta name="twitter:image" content="{{ogimage}}">
+
+<link rel="icon" type="image/png" sizes="32x32" href="{{root}}assets/img/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{{root}}assets/img/brand/favicon-192.png">
+<link rel="apple-touch-icon" href="{{root}}assets/img/brand/apple-touch-icon.png">
+<link rel="manifest" href="{{root}}site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&amp;family=Manrope:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="{{root}}assets/css/styles.css?v={{version}}">
+{{preload}}<script>document.documentElement.classList.add('js')</script>
+<script src="{{root}}assets/js/main.js?v={{version}}" defer></script>
+</head>
+<body data-page="{{key}}" data-hero="{{hero}}">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-header>
+  <div class="site-header__inner">
+    <a class="brand" href="{{root}}" aria-label="La Casa Bella Resort &amp; Events Place, home">
+      <img class="brand__mark brand__mark--bronze" src="{{root}}assets/img/brand/wordmark-bronze.png" alt="" width="1200" height="{{logoh}}">
+      <img class="brand__mark brand__mark--ivory" src="{{root}}assets/img/brand/wordmark-ivory.png" alt="" width="1200" height="{{logoh}}">
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="{{root}}staycations/" data-nav="staycations">Staycations</a></li>
+        <li><a href="{{root}}events/" data-nav="events">Events</a></li>
+        <li><a href="{{root}}catering/" data-nav="catering">Catering</a></li>
+        <li><a href="{{root}}gallery/" data-nav="gallery">Gallery</a></li>
+        <li><a href="{{root}}our-story/" data-nav="story">Our Story</a></li>
+        <li><a href="{{root}}contact/" data-nav="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--header" href="{{root}}contact/?type=staycation#inquiry">Plan Your Visit</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+      <span class="menu-toggle__label" data-menu-label>Menu</span>
+      <span class="menu-toggle__lines" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" data-menu hidden>
+  <div class="mobile-menu__inner">
+    <nav aria-label="Mobile">
+      <ol class="mobile-menu__list">
+        <li><a href="{{root}}" data-nav="home"><span>01</span>Home</a></li>
+        <li><a href="{{root}}staycations/" data-nav="staycations"><span>02</span>Staycations</a></li>
+        <li><a href="{{root}}events/" data-nav="events"><span>03</span>Events</a></li>
+        <li><a href="{{root}}catering/" data-nav="catering"><span>04</span>Catering</a></li>
+        <li><a href="{{root}}gallery/" data-nav="gallery"><span>05</span>Gallery</a></li>
+        <li><a href="{{root}}our-story/" data-nav="story"><span>06</span>Our Story</a></li>
+        <li><a href="{{root}}contact/" data-nav="contact"><span>07</span>Contact</a></li>
+      </ol>
+    </nav>
+    <div class="mobile-menu__foot">
+      <div class="mobile-menu__ctas">
+        <a class="btn btn--light" href="{{root}}contact/?type=staycation#inquiry">Plan Your Visit</a>
+        <a class="btn btn--ghost-light" href="{{root}}contact/?type=event#inquiry">Plan an Event</a>
+      </div>
+      <p class="mobile-menu__address">Nalundan, Guimbal, Iloilo, Philippines</p>
+    </div>
+  </div>
+</div>
+
+<main id="main" tabindex="-1">
+{{content}}
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <a class="site-footer__brand" href="{{root}}" aria-label="La Casa Bella, home">
+        <img src="{{root}}assets/img/brand/wordmark-ivory.png" alt="La Casa Bella" width="1200" height="{{logoh}}" loading="lazy">
+      </a>
+      <p class="site-footer__tagline">For time away, time together and everything worth celebrating.</p>
+    </div>
+    <div class="site-footer__grid">
+      <div>
+        <h2 class="site-footer__label">La Casa Bella Resort &amp; Events Place</h2>
+        <p>Nalundan, Guimbal, Iloilo, Philippines</p>
+      </div>
+      <nav aria-label="Footer">
+        <h2 class="site-footer__label">Explore</h2>
+        <ul class="site-footer__links">
+          <li><a href="{{root}}staycations/">Staycations</a></li>
+          <li><a href="{{root}}events/">Events</a></li>
+          <li><a href="{{root}}catering/">Catering</a></li>
+          <li><a href="{{root}}gallery/">Gallery</a></li>
+          <li><a href="{{root}}our-story/">Our Story</a></li>
+          <li><a href="{{root}}contact/">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="site-footer__label">Inquiries</h2>
+        <ul class="site-footer__links">
+          <li><a href="{{root}}contact/?type=staycation#inquiry">Inquire About a Stay</a></li>
+          <li><a href="{{root}}contact/?type=event#inquiry">Plan Your Event</a></li>
+          <li><a href="{{root}}contact/?type=catering#inquiry">Inquire About Catering</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; La Casa Bella Resort &amp; Events Place</p>
+      <p>Website concept by Lendez Studio</p>
+      <a class="site-footer__top-link" href="#main">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </div>
+</footer>
+
+<a class="sticky-cta" href="{{root}}contact/#inquiry" data-sticky-cta>Get in Touch {{arrow}}</a>
+</body>
+</html>

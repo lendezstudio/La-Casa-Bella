@@ -1,0 +1,114 @@
+<!--
+key: contact
+path: contact/index.html
+hero: light
+title: Contact & Inquiries | La Casa Bella
+description: Thinking about a staycation, planning a celebration, or exploring catering for your event? Reach out to La Casa Bella Resort & Events Place in Guimbal, Iloilo.
+-->
+
+<section class="page-hero type-hero" aria-labelledby="page-title">
+  <div class="container">
+    <p class="eyebrow reveal">Connect with La Casa Bella</p>
+    <h1 class="h-hero type-hero__title" id="page-title" data-lines>
+      <span class="line-mask"><span>Let's make room</span></span>
+      <span class="line-mask"><span><em>for your plans.</em></span></span>
+    </h1>
+    <div class="type-hero__row">
+      <p class="lead reveal" data-delay="2">Thinking about a staycation, planning a celebration, or exploring catering for your event? Reach out and tell the team what's on your mind.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--sm" aria-labelledby="pathways-title" style="padding-top:0">
+  <div class="container">
+    <h2 class="eyebrow" id="pathways-title" style="margin-bottom:24px">What are you planning?</h2>
+    <ul class="pathways" role="list" data-pathways>
+      <li><button class="pathway" type="button" data-type="staycation" aria-pressed="false"><span class="numeral">01</span><span class="pathway__t">Staycation Inquiry</span>{{arrow}}</button></li>
+      <li><button class="pathway" type="button" data-type="event" aria-pressed="false"><span class="numeral">02</span><span class="pathway__t">Event or Celebration</span>{{arrow}}</button></li>
+      <li><button class="pathway" type="button" data-type="wedding" aria-pressed="false"><span class="numeral">03</span><span class="pathway__t">Wedding</span>{{arrow}}</button></li>
+      <li><button class="pathway" type="button" data-type="team-building" aria-pressed="false"><span class="numeral">04</span><span class="pathway__t">Team Building</span>{{arrow}}</button></li>
+      <li><button class="pathway" type="button" data-type="catering" aria-pressed="false"><span class="numeral">05</span><span class="pathway__t">Outside Resort Catering</span>{{arrow}}</button></li>
+      <li><button class="pathway" type="button" data-type="general" aria-pressed="false"><span class="numeral">06</span><span class="pathway__t">General Question</span>{{arrow}}</button></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section bg-ivory-deep" id="inquiry" aria-labelledby="form-title">
+  <div class="container contact__grid">
+    <div class="form-card">
+      <div class="form-card__head">
+        <h2 class="h-md" id="form-title">Message the team</h2>
+        <span class="badge">Inquiry form preview</span>
+      </div>
+      <form class="form-grid" data-preview-form novalidate>
+        <div class="field">
+          <label for="f-name">Full name</label>
+          <input id="f-name" name="name" type="text" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="f-contact">Preferred contact</label>
+          <input id="f-contact" name="contact" type="text" autocomplete="off" placeholder="Mobile number or email">
+        </div>
+        <div class="field">
+          <label for="f-type">Inquiry type</label>
+          <select id="f-type" name="type" data-type-select>
+            <option value="staycation">Staycation Inquiry</option>
+            <option value="event">Event or Celebration</option>
+            <option value="wedding">Wedding</option>
+            <option value="team-building">Team Building</option>
+            <option value="catering">Outside Resort Catering</option>
+            <option value="general">General Question</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-date">Preferred date</label>
+          <input id="f-date" name="date" type="date">
+        </div>
+        <div class="field">
+          <label for="f-guests">Estimated number of guests</label>
+          <input id="f-guests" name="guests" type="number" min="1" inputmode="numeric">
+        </div>
+        <div class="field field--full">
+          <label for="f-message">Your message</label>
+          <textarea id="f-message" name="message" placeholder="Tell us what you have in mind"></textarea>
+        </div>
+        <p class="privacy field--full">Privacy notice: this inquiry form is a design preview. It does not send, store or share any information you enter.</p>
+        <div class="form-actions field--full">
+          <button class="btn btn--solid" type="submit">Message the Team {{arrow}}</button>
+        </div>
+      </form>
+      <p class="form-status" role="status" data-form-status hidden></p>
+    </div>
+
+    <aside class="contact__aside" aria-label="Contact details">
+      <div class="aside-block">
+        <p class="eyebrow">Official channels</p>
+<!--if:channels-->
+        <h2>Reach the team directly</h2>
+        <ul class="channel-list" role="list">
+          <li><a href="{{facebook}}" rel="noopener" target="_blank"><span>Facebook</span><span>Message us &rarr;</span></a></li>
+          <li><a href="tel:{{phonehref}}"><span>Phone</span><span>{{phone}}</span></a></li>
+          <li><a href="mailto:{{email}}"><span>Email</span><span>{{email}}</span></a></li>
+        </ul>
+        <p>For bookings and inquiries, please use the official contact details linked on this website.</p>
+<!--endif-->
+<!--if:no-channels-->
+        <h2>Speaking with the right team</h2>
+        <div class="pending">
+          <strong>Awaiting confirmation</strong>
+          <span>La Casa Bella's official booking and inquiry channels will be published here once the team has confirmed them, so guests always know exactly where to reach the resort.</span>
+        </div>
+<!--endif-->
+      </div>
+      <div class="aside-block">
+        <p class="eyebrow">Find your way here</p>
+        <h2>Nalundan, Guimbal, Iloilo, Philippines</h2>
+        <p>Get in touch with the team for the latest visitor information and directions.</p>
+      </div>
+      <div class="aside-block">
+        <p class="eyebrow">Helpful to share</p>
+        <p>Your occasion, preferred date, estimated number of guests and the kind of experience you're planning. For catering, include your venue and location.</p>
+      </div>
+    </aside>
+  </div>
+</section>

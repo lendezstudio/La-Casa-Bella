@@ -1,0 +1,69 @@
+<!--
+key: gallery
+path: gallery/index.html
+hero: light
+title: Gallery | La Casa Bella Resort & Events Place
+description: Explore the spaces, settings and celebrations of La Casa Bella Resort & Events Place in Guimbal, Iloilo.
+-->
+
+<section class="page-hero type-hero" aria-labelledby="page-title">
+  <div class="container">
+    <p class="eyebrow reveal">The La Casa Bella Gallery</p>
+    <h1 class="h-hero type-hero__title" id="page-title" data-lines>
+      <span class="line-mask"><span>The little details.</span></span>
+      <span class="line-mask"><span><em>The lasting memories.</em></span></span>
+    </h1>
+    <div class="type-hero__row">
+      <p class="lead reveal" data-delay="2">Explore the spaces, settings and celebrations that make the experience your own.</p>
+    </div>
+  </div>
+</section>
+
+<div class="filters" data-filters>
+  <div class="container filters__inner" role="group" aria-label="Filter photographs">
+    <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All <sup>{{count:all}}</sup></button>
+    <button class="filter-btn" type="button" data-filter="place" aria-pressed="false">The Place <sup>{{count:place}}</sup></button>
+    <button class="filter-btn" type="button" data-filter="stay" aria-pressed="false">Staycations <sup>{{count:stay}}</sup></button>
+    <button class="filter-btn" type="button" data-filter="celebrations" aria-pressed="false">Celebrations <sup>{{count:celebrations}}</sup></button>
+    <button class="filter-btn" type="button" data-filter="catering" aria-pressed="false">Catering <sup>{{count:catering}}</sup></button>
+  </div>
+</div>
+
+<section class="section section--sm" aria-label="Photographs">
+  <div class="container">
+    <p class="visually-hidden" aria-live="polite" data-gallery-status></p>
+    <ul class="gallery-grid" role="list" data-gallery>
+{{gallery}}
+    </ul>
+    <p class="gallery-empty" data-gallery-empty hidden>More moments to share soon.</p>
+  </div>
+</section>
+
+<dialog class="lightbox" data-lightbox aria-label="Photo viewer">
+  <div class="lightbox__bar">
+    <p class="lightbox__meta"><span data-lb-label></span><span data-lb-count></span></p>
+    <button class="lb-btn" type="button" data-lb-close aria-label="Close photo viewer">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <div class="lightbox__stage">
+    <img class="lightbox__img" data-lb-img alt="">
+    <div class="lightbox__nav">
+      <button class="lb-btn lb-prev" type="button" data-lb-prev aria-label="Previous photo">{{arrow}}</button>
+      <button class="lb-btn lb-next" type="button" data-lb-next aria-label="Next photo">{{arrow}}</button>
+    </div>
+  </div>
+  <p class="lightbox__foot">Use the arrow keys to browse &middot; Esc to close</p>
+</dialog>
+
+<section class="cta-band" aria-labelledby="cta-title">
+  <div class="cta-band__media" data-parallax="0.12"><img data-img="stay-pool-moonlight" sizes="100vw" alt=""></div>
+  <div class="container cta-band__inner on-dark">
+    <p class="eyebrow eyebrow--light reveal">Your next chapter begins here</p>
+    <h2 class="h-xl reveal" id="cta-title" data-delay="1">Whatever the occasion, <em>we'd love to hear about it.</em></h2>
+    <div class="btn-row reveal" data-delay="2">
+      <a class="btn btn--light" href="{{root}}contact/?type=staycation#inquiry">Inquire About a Stay</a>
+      <a class="btn btn--ghost-light" href="{{root}}contact/?type=event#inquiry">Plan Your Event</a>
+    </div>
+  </div>
+</section>
