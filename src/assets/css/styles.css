@@ -1462,3 +1462,44 @@ main:focus { outline: none; }
   .service__num, .service__title, .service__copy, .service__cta { grid-column: 2; }
   .service__num { align-self: end; }
 }
+
+/* Soft, blurred hand-off where the stay panel overlaps the photography */
+@media (min-width: 900px) {
+  .feature-stay__panel::before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    bottom: calc(100% - 1px);
+    height: clamp(64px, 8vw, 120px);
+    pointer-events: none;
+    background: linear-gradient(to top, var(--ivory) 0%, rgba(244, 240, 231, 0.82) 30%, rgba(244, 240, 231, 0.35) 65%, rgba(244, 240, 231, 0) 100%);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    -webkit-mask-image: linear-gradient(to top, #000 25%, rgba(0, 0, 0, 0.6) 60%, transparent 100%);
+    mask-image: linear-gradient(to top, #000 25%, rgba(0, 0, 0, 0.6) 60%, transparent 100%);
+  }
+}
+@media (min-width: 900px) {
+  .feature-stay__panel { --fade: clamp(64px, 8vw, 120px); }
+  .feature-stay__panel::before {
+    left: calc(var(--fade) * -1);
+    height: var(--fade);
+    -webkit-mask-image: linear-gradient(to top, #000 25%, rgba(0, 0, 0, 0.6) 60%, transparent 100%), linear-gradient(to right, transparent 0, #000 var(--fade));
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(to top, #000 25%, rgba(0, 0, 0, 0.6) 60%, transparent 100%), linear-gradient(to right, transparent 0, #000 var(--fade));
+    mask-composite: intersect;
+  }
+  .feature-stay__panel::after {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0;
+    right: calc(100% - 1px);
+    width: var(--fade);
+    pointer-events: none;
+    background: linear-gradient(to left, var(--ivory) 0%, rgba(244, 240, 231, 0.82) 30%, rgba(244, 240, 231, 0.35) 65%, rgba(244, 240, 231, 0) 100%);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    -webkit-mask-image: linear-gradient(to left, #000 25%, rgba(0, 0, 0, 0.6) 60%, transparent 100%);
+    mask-image: linear-gradient(to left, #000 25%, rgba(0, 0, 0, 0.6) 60%, transparent 100%);
+  }
+}
