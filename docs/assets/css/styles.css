@@ -1520,3 +1520,28 @@ main:focus { outline: none; }
   }
   .feature-stay__panel::before, .feature-stay__panel::after { display: none; }
 }
+
+/* Intro: second photo fills the column beside the wide terrace image */
+.intro__detail { width: min(62%, 320px); justify-self: end; display: grid; gap: 16px; }
+.intro__detail .media { aspect-ratio: 4 / 5; }
+@media (min-width: 900px) {
+  .intro__grid { row-gap: clamp(40px, 4vw, 64px); }
+  .intro__detail { grid-column: 9 / span 4; grid-row: 3; width: 100%; align-self: stretch; grid-template-rows: minmax(0, 1fr) auto; }
+  .intro__detail .media { aspect-ratio: auto; height: 100%; min-height: 0; }
+}
+.intro__detail .intro__note { grid-column: auto; grid-row: auto; align-self: start; }
+@media (min-width: 900px) {
+  /* Detail photo takes the wide photo's height instead of setting it */
+  .intro__detail .media { position: relative; }
+  .intro__detail .media img { position: absolute; inset: 0; }
+}
+
+/* Celebrations trio: equal frames, even stair step (rises left to right) */
+@media (min-width: 700px) {
+  .celebrate__trio { --step: clamp(48px, 6vw, 104px); grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .celebrate__trio .media,
+  .celebrate__trio figure:nth-child(2) .media { aspect-ratio: 3 / 4; }
+  .celebrate__trio figure:nth-child(1) { margin-top: calc(var(--step) * 2); }
+  .celebrate__trio figure:nth-child(2) { margin-top: var(--step); }
+  .celebrate__trio figure:nth-child(3) { margin-top: 0; }
+}
